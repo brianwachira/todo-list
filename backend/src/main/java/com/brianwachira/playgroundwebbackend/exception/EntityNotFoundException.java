@@ -1,2 +1,4 @@
-package com.brianwachira.playgroundwebbackend.exception;public class EntityNotFoundException {
+package com.brianwachira.playgroundwebbackend.exception;
+
+public class EntityNotFoundException extends RuntimeException{
 }
