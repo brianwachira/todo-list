@@ -1,4 +1,4 @@
-package com.brianwachira.playgroundwebbackend.configuration;
+mmipackage com.brianwachira.playgroundwebbackend.configuration;
 
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;
