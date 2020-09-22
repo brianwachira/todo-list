@@ -1,6 +1,6 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: 'server',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -49,7 +49,7 @@ export default {
     prefix: '/api/'
   },
   proxy: {
-    '/api/': 'http://localhost:8080/'
+    '/api/': process.env.PROXY_API || 'http://localhost:8080/'
 
   },
 
